@@ -18,3 +18,9 @@ def sub(a, b):
 # we can use built-in functions also such as math or pandas etc.
 #nothing will change just in place of <file_name> write the name of the built-in function.
 
+def mult(a, b):
+    return(a*b)
+def div(a, b):
+    return(a/b)
+def expo(a,b):
+    return(a**b)
