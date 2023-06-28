@@ -1,0 +1,21 @@
+In function that we made if you want to store that in a variable then in that function returning the function is necessary.
+
+def func(a, b):
+	sum = a+b
+	return sum	# this is mandatory
+s = func(5, 7)	# if storing like this then return is mandatory
+print(s)	# if didn't return the func it will return none.
+
+What is doc string?
+It is a short aknowledgement of what the function do 
+
+we can apply it as:
+
+def func(a, b):
+	"""This is a docString"
+	sum = a+b
+	print(sum)
+	return sum
+func(5,7)
+print(func, __doc__) # This is how you can print docstring of any function
+
