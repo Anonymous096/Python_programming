@@ -6,6 +6,8 @@ def func(a, b):
 s = func(5, 7)	# if storing like this then return is mandatory
 print(s)	# if didn't return the func it will return none.
 
+------------------------------------------------------------------------------------------------
+
 What is doc string?
 It is a short aknowledgement of what the function do 
 
