@@ -1,2 +1,3 @@
 This will print the number of characters and spaces that are added/written in the .txt file
- This is appended using code and stored in a variable and now it will show the number of characters entered and i will append it multiple times just to check if it works
+This is read and write code
+This is appended using code and stored in a variable and now it will show the number of characters entered and i will append it multiple times just to check if it works

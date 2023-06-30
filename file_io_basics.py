@@ -35,11 +35,16 @@ d.close() # You can take same variable and repeat the process and it will work p
 # If you store d.write() in a variable then it will print the number of characters written in a file example code is given below:
 d = open("file_basics.txt", "w")
 c = open("file_basics.txt", "a") # This will append the content of the file
-b = c.write("\n This is appended using code and stored in a variable and now it will show the number of characters entered and i will append it multiple times just to check if it works\n")
+b = c.write("\nThis is appended using code and stored in a variable and now it will show the number of characters entered and i will append it multiple times just to check if it works\n")
 print(b)
 # New thing that if you append and run the command again and again it will append in the terminal again and again not in the .txt file it will only add the content once whenever you run it for the first time.
 a = d.write("This will print the number of characters and spaces that are added/written in the .txt file")
 print(a) # This will print the number of characters that are added in the file.
 d.close()
 
-# Handle read and write both, if you want to read the file and also want to add something in that file only. we can do that by:
+# Handle read and write both, if you want to read the file and also want to add something in that file only. we can do that by using "r+":
+
+f = open("file_basics.txt", "r+")
+print(f.read())
+f.write("\nThis is read and write code") # after writing the content will get append in the first line only
+f.close()
