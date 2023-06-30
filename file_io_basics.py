@@ -31,3 +31,9 @@ d.close() # Close the file whenever not in need
 d = open("function.txt", "a") # It will add/append the content in existing file without over writing it
 d.write("This is appended content added by python code using write and append function")
 d.close() # You can take same variable and repeat the process and it will work properly this is the benifit of the close function.
+
+# If you store d.write() in a variable then it will print the number of characters written in a file example code is given below:
+d = open("file_basics.txt", "w")
+a = d.write("This will print the number of characters and spaces that are added/written in the .txt file")
+print(a) # This will print the number of characters that are added in the file.
+d.close()

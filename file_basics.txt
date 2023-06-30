@@ -1,1 +1,1 @@
-This is written from the python code using write function
+This will print the number of characters and spaces that are added/written in the .txt file
