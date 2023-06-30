@@ -41,3 +41,5 @@ print(b)
 a = d.write("This will print the number of characters and spaces that are added/written in the .txt file")
 print(a) # This will print the number of characters that are added in the file.
 d.close()
+
+# Handle read and write both, if you want to read the file and also want to add something in that file only. we can do that by:
