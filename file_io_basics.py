@@ -4,7 +4,7 @@
 "r" = open file for reading - Default 
 "w" = open file for writing
 "x" = create file if not existed
-"a" = add more content to a file
+"a" = add more content to a file (append)
 "t" = text mode - Default
 "b" = binary mode
 "+" = read and write
@@ -28,3 +28,6 @@ f.close() # This will close the file and it is good to close a file after readin
 d = open("file_basics.txt", "w") # Here putting writing mode <"w"> is mandetory and and the if you put the file name which already exists then it would over write it and all the stuff which was written before will be ddeleted, if you put new name of file it will create the file by itself in this case it made <"file_basics.txt">
 d.write("This is written from the python code using write function") # It will write the content in the file
 d.close() # Close the file whenever not in need
+d = open("function.txt", "a") # It will add/append the content in existing file without over writing it
+d.write("This is appended content added by python code using write and append function")
+d.close() # You can take same variable and repeat the process and it will work properly this is the benifit of the close function.
