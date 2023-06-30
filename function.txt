@@ -21,4 +21,4 @@ def func(a, b):
 func(5,7)
 print(func, __doc__) # This is how you can print docstring of any function
 
-This is appended content added by python code using write and append functionThis is appended content added by python code using write and append function
+This is appended content added by python code using write and append functionThis is appended content added by python code using write and append functionThis is appended content added by python code using write and append functionThis is appended content added by python code using write and append functionThis is appended content added by python code using write and append functionThis is appended content added by python code using write and append functionThis is appended content added by python code using write and append functionThis is appended content added by python code using write and append function
