@@ -16,3 +16,7 @@ we can use built-in functions also such as math or pandas etc.
 nothing will change just in place of <file_name> write the name of the built-in function.
 
 calc.py is module file and modules.py is the file where I called it by import function
+
+-------------------------------------Daily Log-------------------------------------------------
+
+I was working on file basics such as read write and open etc but due to my examination i have to stop and will start after some time...
