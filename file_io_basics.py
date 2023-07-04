@@ -30,7 +30,7 @@ d = open("file_basics.txt", "w") # Here putting writing mode <"w"> is mandetory 
 d.write("This is written from the python code using write function") # It will write the content in the file
 d.close() # Close the file whenever not in need
 d = open("function.txt", "a") # It will add/append the content in existing file without over writing it
-d.write("This is appended content added by python code using write and append function")
+d.write("\nThis is appended content added by python code using write and append function\n")
 d.close() # You can take same variable and repeat the process and it will work properly this is the benifit of the close function.
 
 # If you store d.write() in a variable then it will print the number of characters written in a file example code is given below:
@@ -48,4 +48,12 @@ d.close()
 f = open("file_basics.txt", "r+")
 print(f.read())
 f.write("\nThis is read and write code") # after writing the content will get append in the first line only
+f.close()
+
+f = open("file_basics2.txt", "w")
+f.write("This is new file created")
+f.close()
+f = open("file_basics2.txt", "r")
+p = f.read()
+print(p)
 f.close()
