@@ -17,6 +17,7 @@ f = open("function.txt") # used to read a file but will now return anything but 
 # explaination of command is: open("<file_name>", "<mode>"), inverted commas are mandatory, modes are generally:
 # r = which is default, rt = default(it will return the content of file in text mode), rb = it will return the content of the file in binary mode.
 content = f.read()
+# content = f.read(5) # This will print the first 5 characters of the file.
 print(content)
 print(f.readline()) # this will only read a line from the content of the file, starts from the first line.
 print(f.readlines()) # This will stores the lines of content of file in a list format
