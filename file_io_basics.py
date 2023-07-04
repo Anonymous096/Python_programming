@@ -51,7 +51,7 @@ f.write("\nThis is read and write code") # after writing the content will get ap
 f.close()
 
 f = open("file_basics2.txt", "w") # This will create a new file, if you open the file in write mode and that fide didn't exist then in write mode it will automatically make new file OR we can also use the "x" to create a new file and write or append in it.
-f.write("This is new file created")
+f.write("This is the new file created using write mode")
 f.close()
 f = open("file_basics2.txt", "r") # Read mode will not generate new file by itself
 p = f.read()
