@@ -22,3 +22,4 @@ calc.py is module file and modules.py is the file where I called it by import fu
 I was working on file basics such as read write and open etc but due to my examination i have to stop and will start after some time...
 The file basics is on hold for sometimes because I've been working on Cancer detection machine learning model which I've made using python.
 Python Programming basics are on hold because of my Practical Examination.
+File basics are to be updated soon
