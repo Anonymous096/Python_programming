@@ -23,3 +23,5 @@ I was working on file basics such as read write and open etc but due to my exami
 The file basics is on hold for sometimes because I've been working on Cancer detection machine learning model which I've made using python.
 Python Programming basics are on hold because of my Practical Examination.
 File basics are to be updated soon
+
+Numpy.py, oops.py and init.py is empty files and will be updated soon
