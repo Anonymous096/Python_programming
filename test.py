@@ -9,16 +9,23 @@ else:
     print("INVALID INPUT")
     '''
 
-'''
-n = list(input("Enter number to list: ").split())
+l = []
+n = int(input("Enter number of elements: "))
+for i in range(0,n):
+    ele = int(input("Enter the elements: "))
+    l.append(ele)
 a = int(input("Enter the number to append: "))
-n.append(a)
-print(n)
-e = list(input("Enter the number to extend: ").split())
-n.extend(e)
-print(n)
-'''
+l.append(a)
+print(l)
+l1 = []
+n1 = int(input("Enter list to extend in existing: "))
+for i in range(0,n1):
+    e = int(input("Enter the list: "))
+    l1.append(e)
+l.extend(l1)
+print(l)
 
+'''
 def al(lon):
     n = int(input("Enter a"))
     lon.append(n)
@@ -33,3 +40,4 @@ lon = list(map(int, input("enter: ").split()))
 lon = al(lon)
 lon = el(lon)
 print(lon)
+'''
